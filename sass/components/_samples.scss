@@ -1,0 +1,32 @@
+// SAMPLES
+.btn {
+  text-transform: uppercase;
+  color: white;
+  padding: $buttons;
+  background: linear-gradient(to right, #1A129F 50%, #6156F9);
+  border-radius: 20px;
+  font-family: $poppins;
+  font-weight: $medium;
+}
+
+.section_title {
+  font-family: $lobster;
+  color: $purple;
+  font-weight: lighter;
+  font-size: 1.2em;
+}
+
+/* RESPONSIVE */
+  /* TABLETTE */
+@media screen and (max-width: 1024px) {
+  .section_title {
+    font-size: 1.6em;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 414px) {
+  .section_title {
+    font-size: 2em;
+  }
+}

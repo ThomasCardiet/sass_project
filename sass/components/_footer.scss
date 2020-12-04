@@ -1,0 +1,169 @@
+/* FOOTER SECTION */
+footer {
+  background: url($footer) no-repeat bottom -5px center;
+  background-size: 100%;
+  padding: 420px 0 100px 0;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: $poppins;
+  font-weight: $regular;
+
+  .logo_block {
+
+    h2 {
+      font-family: $dosis;
+      text-align: center;
+      font-size: 3em;
+    }
+
+    h3 {
+      margin-top: 25px;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    .logo_block_pictos {
+      filter: contrast(0) brightness(2);
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      margin: auto;
+
+      img {
+        width: 1.2em;
+      }
+
+    }
+
+    .rotate {
+      transform: rotate(-90deg);
+    }
+
+  }
+
+  div {
+    width: calc((70% - 20%) / 4);
+
+    h3 {
+      margin-bottom: $footer_espace_title;
+    }
+
+    a {
+      color: white;
+      display: inline-block;
+      margin-bottom: $footer_espace_text;
+      font-size: 1.13em;
+    }
+
+    td {
+      padding-bottom: $footer_espace_text;
+    }
+
+    p {
+      margin-bottom: $footer_espace_text;
+    }
+
+  }
+
+}
+
+/* RESPONSIVE */
+  /* TABLETTE */
+@media screen and (max-width: 1024px) {
+
+  footer {
+    padding: 250px 0 10px 0;
+    justify-content: space-evenly;
+    background-size: cover;
+    flex-wrap: wrap;
+
+    .logo_block {
+
+      h2 {
+        font-size: 2.5em;
+      }
+
+      h3 {
+        font-size: 1.5em;
+      }
+
+      .logo_block_pictos {
+        width: 50%;
+
+        img {
+          width: 1em;
+        }
+      }
+
+    }
+
+    div {
+      width: calc((85% - 1%) / 2);
+      text-align: center;
+      margin-bottom: 40px;
+
+      h3 {
+        margin-bottom: $footer_espace_title_tablette;
+      }
+
+      a {
+        margin-bottom: $footer_espace_text_tablette;
+      }
+
+      table {
+        width: 80%;
+        margin: auto;
+      }
+
+      td {
+        padding-bottom: $footer_espace_text_tablette;
+      }
+
+      p {
+        margin-bottom: $footer_espace_text_tablette;
+      }
+
+    }
+
+  }
+
+}
+
+  /* MOBILE */
+@media screen and (max-width: 414px) {
+
+  footer {
+    margin-top: -100px;
+    padding: 450px 0 10px 0;
+    display: block;
+
+    .logo_block {
+
+      h2 {
+        font-size: 3em;
+      }
+
+      h3 {
+        font-size: 1.8em;
+      }
+
+      .logo_block_pictos {
+        width: 60%;
+
+        img {
+          width: 1.5em;
+        }
+      }
+
+    }
+
+    div {
+      width: 100%;
+      margin-bottom: 50px;
+
+    }
+
+  }
+
+}

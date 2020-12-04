@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10.047" height="5.638" viewBox="0 0 10.047 5.638">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.119" y1="0.577" x2="0.5" y2="0.577" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6156f9"/>
+      <stop offset="1" stop-color="#1a129f"/>
+    </linearGradient>
+  </defs>
+  <g id="_003-facebook" data-name="003-facebook" transform="translate(10.047 -128) rotate(90)">
+    <g id="Groupe_1283" data-name="Groupe 1283" transform="translate(128)">
+      <path id="Tracé_1205" data-name="Tracé 1205" d="M131.523,3.454V2.2a.67.67,0,0,1,.7-.628h.7V0h-1.409a2.009,2.009,0,0,0-2.114,1.884v1.57H128v1.57h1.409v5.023h2.114V5.023h1.409l.7-1.57Z" transform="translate(-128)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

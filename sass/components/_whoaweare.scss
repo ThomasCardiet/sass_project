@@ -1,0 +1,96 @@
+/* WHO WE ARE SECTION */
+.who_we_are {
+  background: url($weare_background) no-repeat right 6% top 90px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: $padding_section;
+}
+
+.who_we_are-right {
+  margin-top: 65px;
+  width: 36%;
+
+  h3 {
+    font-family: $poppins;
+    color: $grey;
+    font-weight: $semi-bold;
+    font-size: $title;
+  }
+
+  p {
+    margin-bottom: 30px;
+    font-family: $poppins;
+    color: $light_grey;
+    width: 80%;
+  }
+
+  .btn {
+    font-size: 0.8em;
+  }
+
+}
+
+
+
+/* RESPONSIVE */
+  /* TABLETTE */
+@media screen and (max-width: 1024px) {
+  .who_we_are {
+    padding-top: $padding_section_tablette;
+
+    img {
+      object-fit: contain;
+      width: 40%;
+    }
+
+  }
+
+  .who_we_are-right {
+    margin-top: 0;
+    width: 40%;
+
+    h3 {
+      font-size: $title_tablette;
+    }
+
+    p {
+      width: 90%;
+      font-size: 0.9em;
+    }
+
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 414px) {
+
+  .who_we_are {
+    padding-top: $padding_section_mobile;
+    display: block;
+    background-position: bottom center;
+    background-size: 100%;
+
+    img {
+      width: 80%;
+      margin: auto;
+      display: block;
+    }
+
+  }
+
+  .who_we_are-right {
+    width: 85%;
+    margin: 40px auto 0 auto;
+    text-align: center;
+
+    h3 {
+      font-size: $title_tablette;
+    }
+
+    p {
+      width: 100%;
+    }
+
+  }
+
+}

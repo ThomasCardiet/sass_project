@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10.044" height="13.088" viewBox="0 0 10.044 13.088">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.119" y1="0.577" x2="0.5" y2="0.577" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6156f9"/>
+      <stop offset="1" stop-color="#1a129f"/>
+    </linearGradient>
+  </defs>
+  <g id="_002-google-plus" data-name="002-google-plus" transform="translate(67.238) rotate(90)">
+    <g id="Groupe_1282" data-name="Groupe 1282" transform="translate(0 57.194)">
+      <g id="Groupe_1281" data-name="Groupe 1281" transform="translate(0 0)">
+        <path id="Tracé_1203" data-name="Tracé 1203" d="M10.045,61.658H5.357v1.562h2.86A3.349,3.349,0,1,1,7.4,59.862l1.134-1.233a5.022,5.022,0,1,0-3.514,8.609,5.135,5.135,0,0,0,5.022-4.018V61.658Z" transform="translate(0 -57.194)" fill="url(#linear-gradient)"/>
+        <path id="Tracé_1204" data-name="Tracé 1204" d="M391.649,189.785h-.959v-.959h-.822v.959h-.959v.822h.959v.959h.822v-.959h.959Z" transform="translate(-378.561 -185.323)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

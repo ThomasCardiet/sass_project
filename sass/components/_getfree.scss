@@ -1,0 +1,172 @@
+/* GET FREE SECTION */
+.get_free {
+  background: url($wave) no-repeat top -5px right -5px;
+  background-size: 46%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: $padding_section;
+  position: relative;
+
+  img {
+    width: 33%;
+    object-fit: contain;
+  }
+
+  .mouse {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 20px rgba($purple, 0.2);
+    bottom: -80px;
+    padding: 20px 25px;
+    text-align: center;
+    width: 5%;
+
+    img {
+      width: 80%;
+    }
+  }
+
+  .pictos-block {
+
+    position: absolute;
+    left: 5%;
+    bottom: 100px;
+
+    img {
+      margin-top: 40px;
+      width: 1em;
+    }
+
+    .vertical_hr {
+      height: 50px;
+      width: 55%;
+      margin: 40px auto 0 auto;
+      background: linear-gradient(to right, #6156F9, #1A129F);
+    }
+
+  }
+
+}
+
+.get_free-left {
+  text-transform: uppercase;
+  font-family: $poppins;
+  width: 30%;
+  margin-top: 120px;
+  margin-left: 4%;
+
+  h2 {
+    color: $grey;
+    font-weight: $regular;
+    font-size: 3em;
+  }
+
+  h3 {
+    margin-top: -15px;
+    color: $grey;
+    font-weight: $bold;
+    font-size: 4.5em;
+  }
+
+  p {
+    margin-top: -10px;
+    color: $grey;
+    font-weight: $light;
+    font-size: 1.1em;
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    font-size: 1em;
+  }
+
+}
+
+/* RESPONSIVE */
+  /* TABLETTE */
+@media screen and (max-width: 1024px) {
+  .get_free {
+    background-size: 70%;
+    padding-top: $padding_section_tablette;
+
+    img {
+      width: 45%;
+    }
+
+    .pictos-block {
+      left: 2%;
+      bottom: -100px;
+
+    }
+
+    .mouse {
+      bottom: -120px;
+      width: 10%;
+
+      img {
+        width: 95%;
+      }
+    }
+
+  }
+
+  .get_free-left {
+    width: 45%;
+    margin-left: 6%;
+    margin-top: 60px;
+    z-index: 1;
+
+    h2 {
+      font-size: 2em;
+    }
+
+    h3 {
+      font-size: 2.8em;
+    }
+
+  }
+
+}
+
+  /* MOBILE */
+@media screen and (max-width: 414px) {
+
+  .get_free {
+    background-position: top -250px right -5px;
+    background-size: 150%;
+    padding-top: $padding_section_mobile;
+    display: block;
+
+    img {
+      width: 80%;
+      margin: 40px auto 0 auto;
+      display: block;
+    }
+
+    .mouse {
+      display: none;
+    }
+
+    .pictos-block {
+      display: none;
+    }
+
+  }
+
+  .get_free-left {
+    width: 90%;
+    margin: 60px auto 0 auto;
+
+    h3 {
+      font-size: 3em;
+    }
+
+    p {
+      width: 90%;
+    }
+
+  }
+
+}

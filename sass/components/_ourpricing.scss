@@ -1,0 +1,116 @@
+/* OUR PRICING SECTION */
+.our_pricing {
+  background-color: rgba($light_purple, 0.25);
+  padding: $padding_section 0;
+
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    color: $grey;
+    font-family: $poppins;
+    font-weight: $semi-bold;
+    font-size: $title;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .our_pricing_cards {
+    display: flex;
+    width: $section_width;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: calc((100% - 15%) / 3);
+    background-color: white;
+    border-radius: $border_radius_card;
+    padding: 60px 4%;
+    text-align: center;
+
+    h4 {
+      color: $grey;
+      font-family: $lobster;
+      font-size: 1.8em;
+    }
+
+    .card-desc {
+      color: $light_grey;
+      font-family: $poppins;
+      font-weight: $light;
+      font-size: 1.1em;
+      margin-top: 60px;
+    }
+
+    .card-price {
+      color: $flash_blue;
+      font-family: $poppins;
+      font-weight: $semi-bold;
+      font-size: 2em;
+      margin: 40px 0;
+    }
+
+    .btn {
+      background: transparent;
+      color: $grey;
+      border: 1px solid $flash_blue;
+    }
+
+    .btn:hover {
+      background: transparent;
+      color: white;
+      border: none;
+      background: linear-gradient(to right, #1A129F 50%, #6156F9);
+    }
+
+  }
+
+}
+
+/* RESPONSIVE */
+  /* TABLETTE */
+@media screen and (max-width: 1024px) {
+  .our_pricing {
+
+    h3 {
+      font-size: $title_tablette;
+    }
+
+    .our_pricing_cards {
+      width: $section_width_tablette;
+
+      .card {
+        width: calc((100% - 5%) / 3);
+
+      }
+
+    }
+
+  }
+}
+
+  /* MOBILE */
+@media screen and (max-width: 414px) {
+
+  .our_pricing {
+
+    h3 {
+      font-size: $title_tablette;
+    }
+
+    .our_pricing_cards {
+      display: block;
+
+      .card {
+        width: 100%;
+        margin-bottom: 20px;
+
+      }
+
+    }
+
+  }
+
+}

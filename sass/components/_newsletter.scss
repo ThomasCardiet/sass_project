@@ -1,0 +1,88 @@
+/* NEWSLETTER SECTION */
+.newsletter {
+
+  padding-top: $padding_section;
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    color: $grey;
+    font-family: $poppins;
+    font-weight: $regular;
+    font-size: 2em;
+
+    span {
+      font-weight: bold;
+      font-weight: $semi-bold;
+    }
+
+  }
+
+  form {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin: 40px auto;
+
+    input {
+      background-color: $dark_white;
+      border: none;
+      outline: none;
+      padding: $buttons;
+      width: 80%;
+      font-size: 1.2em;
+    }
+
+    input::placeholder {
+      color: rgba(#999999, 0.6);
+    }
+
+    button {
+      border: none;
+      outline: none;
+    }
+
+  }
+
+}
+
+/* RESPONSIVE */
+  /* TABLETTE */
+@media screen and (max-width: 1024px) {
+
+  .newsletter {
+
+    form {
+      width: 50%;
+
+      input {
+        width: 75%;
+      }
+
+    }
+
+  }
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 414px) {
+
+  .newsletter {
+
+    form {
+      width: 90%;
+
+      input {
+        width: 70%;
+      }
+
+    }
+
+  }
+
+}
